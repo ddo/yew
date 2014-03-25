@@ -27,6 +27,9 @@
   "homepage": "https://github.com/ddo/yew",
   "devDependencies": {
     "request": "^2.34.0",
-    "chai": "^1.9.1"
+    "chai": "^1.9.1",
+    "istanbul": "^0.2.6",
+    "mocha": "^1.18.2",
+    "coveralls": "^2.10.0"
   }
 }
