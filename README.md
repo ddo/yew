@@ -36,7 +36,7 @@ request({
 });
 ```
 
-###Yew way:
+###Yew way: (Sync way :smiley:)
 ```js
 var yew     = require('yew');
 var request = require('request');
