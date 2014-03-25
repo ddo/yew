@@ -1,7 +1,7 @@
 yew
 ===
 
-[![NPM version](https://badge.fury.io/js/yew)](http://badge.fury.io/js/yew)
+[![NPM version](https://badge.fury.io/js/yew.png)](http://badge.fury.io/js/yew)
 
 [![Coverage Status](https://coveralls.io/repos/ddo/yew/badge.png?branch=master)](https://coveralls.io/r/ddo/yew?branch=master)
 [![Code Climate](https://codeclimate.com/github/ddo/yew.png)](https://codeclimate.com/github/ddo/yew)
