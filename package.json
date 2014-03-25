@@ -1,0 +1,32 @@
+{
+  "name": "yew",
+  "version": "0.0.0",
+  "description": "Generator based flow-control",
+  "main": "yew.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ddo@github.com/ddo/yew.git"
+  },
+  "keywords": [
+    "yield",
+    "generator",
+    "async",
+    "flow"
+  ],
+  "author": "ddo <joeddo89@gmail.com> (http://ddo.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddo/yew/issues"
+  },
+  "homepage": "https://github.com/ddo/yew",
+  "devDependencies": {
+    "request": "^2.34.0",
+    "chai": "^1.9.1"
+  }
+}
