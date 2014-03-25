@@ -100,3 +100,6 @@ yew(function *() {
     console.log(github[2]);
 });
 ```
+##Todo
+
+* Error handler
