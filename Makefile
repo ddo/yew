@@ -1,6 +1,6 @@
 test:
 	clear && mocha \
-		--require should \
+		--require chai \
 		--reporter spec \
 		--slow 5s \
 		--harmony-generators
