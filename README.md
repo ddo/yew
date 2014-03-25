@@ -48,7 +48,9 @@ yew(function *() {
         json: true
     }];
 
-    console.log(data);
+    console.log(data[0]); //err
+    console.log(data[1]); //res
+    console.log(data[2]); //body
 });
 ```
 
@@ -56,8 +58,27 @@ yew(function *() {
 
 * ``yield`` an array
 * Array format: [function, argument1 [, argument2, ...]]
-* No need callback function
-* Callback function must be the last argument
+* No need callback function in array
+* Callback of function must be the last argument
+
+##Return
+
+```js
+request('https://graph.facebook.com/GitHub', function(err, res, body) {
+})
+```
+
+```js
+var data = yield [request, 'https://graph.facebook.com/GitHub'];
+
+/*
+data = [
+    0: err,
+    1: res,
+    2: body
+]
+*/
+```
 
 ##Example
 ```js
@@ -74,8 +95,8 @@ yew(function *() {
         json: true
     }];
 
-    console.log(facebook);
-    console.log(tj);
-    console.log(github);
+    console.log(facebook[2]);
+    console.log(tj[2]);
+    console.log(github[2]);
 });
 ```
